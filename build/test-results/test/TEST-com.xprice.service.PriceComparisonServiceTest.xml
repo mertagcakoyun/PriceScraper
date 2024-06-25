@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.xprice.service.PriceComparisonServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-25T07:38:09" hostname="Merts-MBP.home" time="0.034">
+<testsuite name="com.xprice.service.PriceComparisonServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-25T10:58:48" hostname="Merts-MBP.home" time="0.043">
   <properties/>
-  <testcase name="testGetMacBookAirM2Prices()" classname="com.xprice.service.PriceComparisonServiceTest" time="0.034"/>
+  <testcase name="testGetMacBookAirM2Prices()" classname="com.xprice.service.PriceComparisonServiceTest" time="0.043"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

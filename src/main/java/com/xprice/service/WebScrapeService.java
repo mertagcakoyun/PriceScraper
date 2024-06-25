@@ -6,14 +6,27 @@ import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
-
 import java.io.IOException;
+/**
+ * Service class responsible for web scraping product information from URLs and caching the results.
+ */
 
 @Service
 public class WebScrapeService {
     private final Logger logger = LoggerFactory.getLogger(WebScrapeService.class);
 
+    /**
+     * Scrapes the specified website for product information (price and title).
+     * Caches the result based on the URL for efficient subsequent retrievals.
+     *
+     * @param url            The URL of the website to scrape
+     * @param priceSelector  CSS selector for locating the price element on the webpage
+     * @param titleSelector  CSS selector for locating the title element on the webpage
+     * @return ProductInfo object containing website URL, price, and title
+     */
+    @Cacheable(value = "prices", key = "#url", sync = true)
     public ProductInfo scrapeWebsite(String url, String priceSelector, String titleSelector) {
         try {
             Document doc = getDocument(url);

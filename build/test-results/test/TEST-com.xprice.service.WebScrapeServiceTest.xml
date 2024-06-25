@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.xprice.service.WebScrapeServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-25T10:58:48" hostname="Merts-MBP.home" time="0.231">
+  <properties/>
+  <testcase name="testScrapeWebsite_Successfully()" classname="com.xprice.service.WebScrapeServiceTest" time="0.231"/>
+  <system-out><![CDATA[2024-06-25 13:58:48.466  INFO 17483 --- [    Test worker] com.xprice.service.WebScrapeService      : Scraping successful for url: http://test-url.com
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
