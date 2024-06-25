@@ -6,6 +6,7 @@ X-Price is a Spring Boot application that scrapes prices for MacBook Air M2 from
 Scrapes prices from MediaMarkt, Vatan, and Teknosa.
 Provides a REST API for retrieving the scraped prices.
 Caches the scraped prices for 15 seconds to reduce the load on the target websites.
+<img src="https://github.com/mertagcakoyun/elasticGate/blob/main/project/docs/assets/system.png" alt="Alt text" title="Optional title">
 
 ## API Endpoint
 ```

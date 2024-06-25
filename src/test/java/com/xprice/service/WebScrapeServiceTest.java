@@ -21,10 +21,10 @@ import java.io.IOException;
 class WebScrapeServiceTest {
 
     @InjectMocks
-    private Document document;
+    private WebScrapeService webScrapeService;
 
     @Mock
-    private WebScrapeService webScrapeService;
+    private Document document;
 
     @BeforeEach
     void setUp() {

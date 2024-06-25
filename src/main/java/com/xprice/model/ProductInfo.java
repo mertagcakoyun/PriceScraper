@@ -1,5 +1,8 @@
 package com.xprice.model;
 
+/**
+ * Model class representing product information including website, price, and title.
+ */
 public class ProductInfo {
     private String website;
     private double price;

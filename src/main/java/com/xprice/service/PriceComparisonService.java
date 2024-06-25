@@ -1,16 +1,14 @@
 package com.xprice.service;
 
 import com.xprice.model.ProductInfo;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-
+/**
+ * Service class responsible for comparing prices of MacBook Air M2 from different websites by scraping.
+ */
 @Service
 public class PriceComparisonService {
     protected static final String MEDIAMARKT_URL = "https://www.mediamarkt.com.tr/tr/product/_macbook-air-m2-8gb-256gb-ssd-13-6in%C3%A7-uzay-grisi-mlxw3tu-a-1222679.html?utm_content=nonbrand&gad_source=1&gclid=Cj0KCQjwj9-zBhDyARIsAERjds1wwlXawPzdTiEmOz2QhS-0StHCQJk32O-cSMvuhEAJVuhGbNzDnKsaAl-eEALw_wcB&gclsrc=aw.ds";
