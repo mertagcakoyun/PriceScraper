@@ -38,6 +38,23 @@ Example Response:
     }
 ]
 ```
+<img src="https://github.com/mertagcakoyun/PriceScraper/blob/main/assets/response.png" alt="Alt text" title="Optional title">
+
+Website Responses:
+
+MediaMarkt
+
+<img src="https://github.com/mertagcakoyun/PriceScraper/blob/main/assets/mediamarkt.png" alt="MediaMarkt" title="MediaMarkt" width="600" height="300">
+
+Vatan Bilgisayar
+
+<img src="https://github.com/mertagcakoyun/PriceScraper/blob/main/assets/vatan.png" alt="Vatan" title="Optional title" width="600" height="300">
+
+Teknosa
+
+<img src="https://github.com/mertagcakoyun/PriceScraper/blob/main/assets/teknosa.png" alt="Teknosa" title="Optional title" width="600" height="300">
+
+
 ## Setup and Installation
 
 ### Clone the Repository:
