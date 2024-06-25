@@ -7,6 +7,44 @@ Scrapes prices from MediaMarkt, Vatan, and Teknosa.
 Provides a REST API for retrieving the scraped prices.
 Caches the scraped prices for 15 seconds to reduce the load on the target websites.
 
+## Technologies
+- Java 19
+- Spring Boot
+- Jsoup
+- JUnit 5
+- Mockito
+- Caffeine Cache
+
+Project Structure
+```
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── xprice
+│   │           ├── controller
+│   │           │   └── PriceComparisonController.java
+│   │           ├── model
+│   │           │   └── ProductInfo.java
+│   │           ├── service
+│   │           │   ├── PriceComparisonService.java
+│   │           │   └── WebScrapeService.java
+│   │           └── config
+│   │               └── CacheConfig.java
+│   └── resources
+│       └── application.properties
+└── test
+    └── java
+        └── com
+            └── xprice
+                ├── controller
+                │   └── PriceComparisonControllerTest.java
+                ├── service
+                │   └── WebScrapeServiceTest.java
+                └── config
+                    └── CacheConfigTest.java
+```
+
 ## API Endpoint
 ```
 GET /prices/macbook-air-m2
